@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+p store_name = Store.find_by(name: 'Richmond').name
+
+store = Store.create!(name: "Victoria")
